@@ -69,7 +69,7 @@ namespace Project.F1.ViewComponents
                 });
             }
 
-            var viewModel = driverModels.OrderByDescending(x => x.TotalPoints).ToList();
+            var viewModel = driverModels.OrderByDescending(x => x.TotalPoints).ThenBy(x => x.DriverName).ToList();
             return View("DriverInfoPanel", viewModel);
         }
 

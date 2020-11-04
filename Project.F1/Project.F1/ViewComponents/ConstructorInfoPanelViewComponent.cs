@@ -88,7 +88,7 @@ namespace Project.F1.ViewComponents
                 });
             }
 
-            var viewModel = constructorModels.OrderByDescending(x => x.TotalPoints).ToList();
+            var viewModel = constructorModels.OrderByDescending(x => x.TotalPoints).ThenBy(x => x.ConstructorName).ToList();
             return View("ConstructorInfoPanel", viewModel);
         }
 

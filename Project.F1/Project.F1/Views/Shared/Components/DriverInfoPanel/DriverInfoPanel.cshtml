@@ -2,6 +2,7 @@
 
 @{
     int position = 1;
+    int prevTotalPoints = 0;
 }
 
 <div class="driver-info-panel">
@@ -33,7 +34,14 @@
             <tr class="driver-info-panel-tr @if (place.ConstructorName == "Williams") { @("williams") }">
                 <td>
                     <p>
-                        @position
+                        @if (prevTotalPoints == place.TotalPoints)
+                        {
+                            @("=")
+                        }
+                        else
+                        {
+                            @position
+                        }
                     </p>
                 </td>
                 <td>
@@ -52,6 +60,7 @@
                     </p>
                 </td>
             </tr>
+            prevTotalPoints=place.TotalPoints;
             position++;
         }
     </table>

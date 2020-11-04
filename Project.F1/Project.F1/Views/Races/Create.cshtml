@@ -1,0 +1,105 @@
+﻿@model Project.F1.Models.Race
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Race</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div>
+                <h2>
+                    Track
+                </h2>
+            </div>
+            <div class="form-group">
+                <label asp-for="TrackId" class="control-label"></label>
+                <select asp-for="TrackId" class="form-control" asp-items="ViewBag.TrackId"></select>
+            </div>
+            <hr />
+            <div>
+                <h2>
+                    Positions
+                </h2>
+            </div>
+            @Model.
+            <div class="form-group">
+                <label asp-for="Positions" class="control-label"></label>
+                <input asp-for="Positions" class="form-control" value="1" />
+                <span asp-validation-for="Positions" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <p>
+                    2
+                </p>
+            </div>
+            <div class="form-group">
+                <p>
+                    3
+                </p>
+            </div>
+            <div class="form-group">
+                <p>
+                    4
+                </p>
+            </div>
+            <div class="form-group">
+                <p>
+                    5
+                </p>
+            </div>
+            <div class="form-group">
+                <p>
+                    6
+                </p>
+            </div>
+            <div class="form-group">
+                <p>
+                    7
+                </p>
+            </div>
+            <div class="form-group">
+                <p>
+                    8
+                </p>
+            </div>
+            <div class="form-group">
+                <p>
+                    9
+                </p>
+            </div>
+            <div class="form-group">
+                <p>
+                    10
+                </p>
+            </div>
+            <hr />
+            <div>
+                <h2>
+                    Fastest Lap
+                </h2>
+            </div>
+            <div class="form-group">
+                <label asp-for="FastestLapDriver" class="control-label"></label>
+                <select asp-for="FastestLapDriver" class="form-control" asp-items="ViewBag.DriverId"></select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

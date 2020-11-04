@@ -1,0 +1,110 @@
+﻿/* ====================== */
+/* Main Navbar */
+.nav-outer {
+    width: 75px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: var(--main-williams-blue);
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.5);
+}
+.nav-outer .nav-wrap{
+    height: 100%;
+    width: 100%;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-outer .nav-wrap .logo-wrap{
+    margin-bottom: 5rem;
+}
+    .nav-outer .nav-wrap .logo-wrap svg{
+        height: 50px;
+        width: 50px;
+    }
+        .nav-outer .nav-wrap .logo-wrap svg path {
+            fill: var(--light-offwhite) !important;
+        }
+.nav-outer .nav-wrap .top-group,
+.nav-outer .nav-wrap .nav-btns-main,
+.nav-outer .nav-wrap .nav-btns-main .btn-main,
+.nav-outer .nav-wrap .nav-btns-settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-outer .nav-wrap .nav-btns-main .btn-main svg{
+    fill: var(--light-offwhite);
+    width: 50px;
+    height: 50px;
+}
+    .nav-outer .nav-wrap p {
+        font-size: 0.7rem;
+        color: var(--light-offwhite);
+    }
+.nav-outer .nav-wrap .nav-btns-settings svg {
+    height: 50px;
+    width: 50px;
+}
+    .nav-outer .nav-wrap .nav-btns-settings svg path {
+        stroke: var(--light-offwhite);
+        stroke-width: 1;
+    }
+
+/* Logo */
+
+/* Navbar Buttons */
+
+/* Navbar Settings */
+
+/* ====================== */
+/* Mobile Navbar */
+.nav-wrap .nav-mobile-wrap{
+    display: none;
+}
+.nav-wrap .nav-mobile-wrap .burger{
+    z-index: 100;
+    position: relative;
+}
+.nav-wrap .mobile-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 90;
+    height: 100%;
+    width: 100%;
+    transition: all .25s ease-in;
+    transform: translate(100%);
+    background: var(--main-williams-blue);
+}
+.nav-wrap .mobile-menu.open{
+    transform: translate(0);
+}
+.nav-wrap .mobile-menu-footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.nav-wrap .mobile-menu-nav {
+    height: 100%;
+    width: 100%;
+}
+    .nav-wrap .mobile-menu-nav .btn-wrap {
+        width: max-content;
+        top: 50%;
+        left: 50%;
+        position: relative;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+        .nav-wrap .mobile-menu-nav .btn-wrap a{
+            margin-bottom: 2rem;
+        }

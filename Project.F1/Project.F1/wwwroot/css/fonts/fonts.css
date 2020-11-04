@@ -1,0 +1,27 @@
+﻿/* ======================== */
+/* Font Styles */
+body{
+    font-family: "Segoe UI";
+}
+
+/* Font Sizes */
+.font-xs{
+    font-size: 0.65rem;
+}
+.font-s{
+    font-size: 0.85rem;
+}
+.font-l{
+    font-size: 2rem;
+}
+
+/* Font Colours */
+.font-offwhite{
+    color: var(--light-offwhite);
+}
+.font-blue-light {
+    color: var(--main-blue-light)
+}
+.font-reject{
+    color: var(--reject);
+}

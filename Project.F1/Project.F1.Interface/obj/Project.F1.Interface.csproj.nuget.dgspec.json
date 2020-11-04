@@ -1,0 +1,215 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Interface\\Project.F1.Interface.csproj": {}
+  },
+  "projects": {
+    "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Context\\Project.F1.Context.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Context\\Project.F1.Context.csproj",
+        "projectName": "Project.F1.Context",
+        "projectPath": "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Context\\Project.F1.Context.csproj",
+        "packagesPath": "C:\\Users\\ben1s\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Context\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ben1s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://e-itsolutions.pkgs.visualstudio.com/_packaging/E_IT_S_Feed_2/nuget/v3/index.json": {},
+          "https://nuget.devexpress.com/kCC6dWWHZkWRFkuy1XC8npzIbYGPlBtx8quuI9bZMjyQVT4ZcZ/api": {},
+          "https://pkgs.dev.azure.com/bsindustries/655ea4fc-9e66-466e-b51f-1a6a04491818/_packaging/First.Test.Repo/nuget/v3/index.json": {},
+          "https://www.myget.org/F/eits-dev/auth/56c5112f-620c-4562-a3b5-2c339d83d160/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Models\\Project.F1.Models.csproj": {
+                "projectPath": "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Models\\Project.F1.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Interface\\Project.F1.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Interface\\Project.F1.Interface.csproj",
+        "projectName": "Project.F1.Interface",
+        "projectPath": "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Interface\\Project.F1.Interface.csproj",
+        "packagesPath": "C:\\Users\\ben1s\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ben1s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://e-itsolutions.pkgs.visualstudio.com/_packaging/E_IT_S_Feed_2/nuget/v3/index.json": {},
+          "https://nuget.devexpress.com/kCC6dWWHZkWRFkuy1XC8npzIbYGPlBtx8quuI9bZMjyQVT4ZcZ/api": {},
+          "https://pkgs.dev.azure.com/bsindustries/655ea4fc-9e66-466e-b51f-1a6a04491818/_packaging/First.Test.Repo/nuget/v3/index.json": {},
+          "https://www.myget.org/F/eits-dev/auth/56c5112f-620c-4562-a3b5-2c339d83d160/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Context\\Project.F1.Context.csproj": {
+                "projectPath": "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Context\\Project.F1.Context.csproj"
+              },
+              "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Models\\Project.F1.Models.csproj": {
+                "projectPath": "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Models\\Project.F1.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Models\\Project.F1.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Models\\Project.F1.Models.csproj",
+        "projectName": "Project.F1.Models",
+        "projectPath": "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Models\\Project.F1.Models.csproj",
+        "packagesPath": "C:\\Users\\ben1s\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\Project.F1\\Project.F1\\Project.F1.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ben1s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://e-itsolutions.pkgs.visualstudio.com/_packaging/E_IT_S_Feed_2/nuget/v3/index.json": {},
+          "https://nuget.devexpress.com/kCC6dWWHZkWRFkuy1XC8npzIbYGPlBtx8quuI9bZMjyQVT4ZcZ/api": {},
+          "https://pkgs.dev.azure.com/bsindustries/655ea4fc-9e66-466e-b51f-1a6a04491818/_packaging/First.Test.Repo/nuget/v3/index.json": {},
+          "https://www.myget.org/F/eits-dev/auth/56c5112f-620c-4562-a3b5-2c339d83d160/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

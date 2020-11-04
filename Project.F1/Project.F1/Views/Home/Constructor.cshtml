@@ -1,0 +1,100 @@
+﻿@model Project.F1.Models.PreviousRaceInfoModel
+
+@{
+    ViewData["Title"] = "Constructor Results";
+}
+
+<div class="content-top">
+    <div class="content-wrap">
+        <div>
+            <h1 class="font-offwhite">
+                Prev. Race Stats
+            </h1>
+        </div>
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-3 top-info">
+                    <div class="info-wrap">
+                        <div>
+                            <p class="font-weight-bold font-s">
+                                TRACK
+                            </p>
+                        </div>
+                        <div class="img">
+                            <svg id="icons" enable-background="new 0 0 64 64" height="512" viewBox="0 0 64 64" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m56 6.998c-4.411 0-8 3.589-8 8 0 1.103-.897 2-2 2s-2-.897-2-2c0-4.411-3.589-8-8-8s-8 3.589-8 8v18c0 1.103-.897 2-2 2s-2-.897-2-2c0-.001 0-.001 0-.002s0-.001 0-.002c0-6.618-5.382-12.002-11.998-12.002-6.618 0-12.002 5.384-12.002 12.002v10.99c0 7.168 5.832 13 13 13h33.913c.03.003.056.018.087.018s.057-.015.087-.018h1.913c8.262 0 14.982-6.713 14.998-14.972 0-.002.002-.004.002-.007v-27.007c0-4.411-3.589-8-8-8zm6 34.986c0 7.168-5.832 13-13 13h-1v-1.977h1 .001c6.065-.001 10.999-4.936 10.999-11.001v-27.008c0-2.206-1.794-4-4-4s-4 1.794-4 4c0 3.309-2.691 6-6 6s-6-2.691-6-6c0-2.206-1.794-4-4-4s-4 1.794-4 4v18c0 3.309-2.691 6-6 6s-6-2.691-6-6c0-.009-.005-.016-.005-.023-.01-4.401-3.592-7.979-7.995-7.979-4.401 0-7.982 3.574-7.995 7.973 0 .009-.005.016-.005.025v10.884c-.004.036-.021.068-.021.106 0 4.976 4.047 9.023 9.021 9.023h33v1.977h-33c-6.065 0-11-4.935-11-11v-10.99c0-5.515 4.487-10.002 10.002-10.002 5.513 0 9.998 4.487 9.998 10.002v.002s0 .001 0 .002c0 2.206 1.794 4 4 4s4-1.794 4-4v-18c0-3.309 2.691-6 6-6s6 2.691 6 6c0 2.206 1.794 4 4 4s4-1.794 4-4c0-3.309 2.691-6 6-6s6 2.691 6 6zm-49 9.024c-3.844 0-6.971-3.104-7.018-6.938.003-.03.018-.055.018-.086v-10.972c0-.007.004-.013.004-.02 0-3.307 2.689-5.996 5.996-5.996s5.996 2.689 5.996 5.996c0 .009.005.016.005.023.01 4.403 3.594 7.982 7.999 7.982 4.411 0 8-3.589 8-8v-18c0-1.103.897-2 2-2s2 .897 2 2c0 4.411 3.589 8 8 8s8-3.589 8-8c0-1.103.897-2 2-2s2 .897 2 2v27.008c0 4.964-4.038 9.002-9.002 9.002h-.998v-4.002c0-.553-.447-1-1-1-.164 0-.313.049-.449.119l-2.551-2.55v-.586c0-.553-.447-1-1-1s-1 .447-1 1v8.02zm31-4.606 2 2v1.174l-2-2zm0 4.002.604.604h-.604z" /></g></svg>
+                        </div>
+                        <div>
+                            <p class="font-l">
+                                @Model.TrackName
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 top-info">
+                    <div class="info-wrap" style="background: @Model.WinnerTeamColour">
+                        <div>
+                            <p class="font-weight-bold font-s">
+                                WINNER
+                            </p>
+                        </div>
+                        <div class="img">
+                            <img src="@Model.WinnerPhoto" />
+                        </div>
+                        <div>
+                            <p class="font-l">
+                                @Model.WinnerName
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 top-info">
+                    <div class="info-wrap" style="background: @Model.FastestLapTeamColour">
+                        <div>
+                            <p class="font-weight-bold font-s">
+                                FASTEST LAP
+                            </p>
+                        </div>
+                        <div class="img">
+                            <img src="@Model.FastestLapPhoto" />
+                        </div>
+                        <div>
+                            <p class="font-l">
+                                @Model.FastestLapName
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 top-info">
+                    <div class="info-wrap">
+                        <div>
+                            <p class="font-weight-bold font-s">
+                                MOST TEAM PTS GAINED
+                            </p>
+                        </div>
+                        <div class="img">
+                        </div>
+                        <div>
+                            <p class="font-l">
+                                Mercedes
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content-bottom">
+    <div class="content-wrap">
+        <div class="main-info-box">
+            <div class="px-4">
+                <h1 class="">
+                    Constructors
+                </h1>
+            </div>
+            <div>
+                @await Component.InvokeAsync("ConstructorInfoPanel")
+            </div>
+        </div>
+    </div>
+</div>

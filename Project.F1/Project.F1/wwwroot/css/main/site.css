@@ -1,0 +1,201 @@
+﻿/* ========================== */
+/* Root Colours */
+:root {
+    /* Main colours */
+    --main-williams-blue: #00A0DD;
+    --main-blue-light: #85A6DE;
+    --main-blue: #39465E;
+    --main-blue-dark: #222A38;
+    /* Grayscale colours */
+    --light-white: #fff;
+    --light-offwhite: #F2F2F2;
+    --light-light-gray: #D9D9D9;
+    /* Contrast colours */
+    --confirm: #14A662;
+    --reject: #BF0426;
+    /* Font colours */
+    --font-base: #313D52;
+    --font-offwhite: #F2F2F2;
+}
+
+/* ========================== */
+/* Page setup */
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100%;
+    background: var(--light-offwhite);
+}
+
+body{
+    margin-left: 75px;
+}
+
+/* ========================== */
+/* Welcome Page */
+.welcome-banner-wrap{
+    height: 100%;
+    width: 100%;
+}
+.welcome-banner-wrap .welcome-banner{
+    position: relative;
+    max-width: 800px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* ========================== */
+/* Content Pages (Driver/Constructor) */
+/* Content Top */
+.content-top {
+    width: 100%;
+    background: #39465e; /* Old browsers */
+    background: -moz-linear-gradient(top, var(--main-blue) 0%, var(--main-blue-dark) 70%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, var(--main-blue) 0%,var(--main-blue-dark) 70%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, var(--main-blue) 0%,var(--main-blue-dark) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+    .content-top .content-wrap{
+        padding: 3rem;
+    }
+.content-top .top-info .info-wrap {
+    padding: 0.1rem 0.5rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.content-top .top-info svg{
+    fill: var(--light-offwhite);
+}
+.content-top .top-info img {
+    height: 110px;
+}
+.content-top .top-info p{
+    color: var(--light-offwhite);
+}
+.content-top .top-info{
+    border-right: 1px solid var(--light-offwhite);
+    max-width: 300px;
+}
+    .content-top .top-info:last-of-type {
+        border-right: unset;
+    }
+.content-top .top-info .img svg{
+    height: 110px;
+    width: 110px;
+}
+
+/* Content Bottom */
+.content-bottom{
+    width: 100%;
+}
+.content-bottom .content-wrap {
+    display: flex;
+    flex-direction: row;
+    padding: 0 3rem;
+    position: relative;
+    top: -30px;
+}
+.content-bottom .content-wrap .main-info-box{
+    padding: 1rem 0;
+    background: var(--light-white);
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.20);
+}
+.content-bottom .content-wrap .tracker-info-box{
+    width: 310px;
+}
+
+
+/* ========================== */
+/* Driver Info Panel */
+.driver-info-panel table{
+    width: 100%;
+}
+.driver-info-panel .driver-info-panel-tr td {
+    max-width: 200px;
+    padding: 0.5rem 0;
+}
+    .driver-info-panel tr td:first-child,
+    .driver-info-panel tr th:first-child {
+        padding-left: 1.5rem
+    }
+.driver-info-panel .driver-info-panel-tr {
+    padding: 2rem 0;
+    border-top: 1px solid var(--light-offwhite);
+}
+    .driver-info-panel .driver-info-panel-tr p{
+        margin-bottom: 0px;
+    }
+.driver-info-panel .driver-info-panel-tr.williams {
+    background: #00A0DD33;
+}
+
+
+/* ========================== */
+/* Settings Pages */
+.settings-top {
+    width: 100%;
+    background: #39465e; /* Old browsers */
+    background: -moz-linear-gradient(top, var(--main-blue) 0%, var(--main-blue-dark) 70%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, var(--main-blue) 0%,var(--main-blue-dark) 70%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, var(--main-blue) 0%,var(--main-blue-dark) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    min-height: 50%;
+}
+    .settings-top .content-wrap {
+        padding: 3rem;
+    }
+
+.settings-bottom .settings-box{
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.settings-bottom .settings-box.closed {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+.settings-bottom .content-wrap{
+    position: relative;
+    top: -10rem;
+}
+.settings-bottom .settings-box svg{
+    fill: var(--main-williams-blue);
+    height: 110px;
+    width: 110px;
+}
+.settings-bottom .edit-wrap {
+    position: relative;
+    top: -20rem;
+    padding: 1rem;
+}
+.settings-bottom .settings-create-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+}
+    .settings-bottom .settings-create-btn svg{
+        height: 40px;
+        width: 40px;
+        margin-right: 1.5rem;
+    }
+        .settings-bottom .settings-create-btn svg path {
+            fill: var(--confirm);
+        }
+.settings-bottom .edit-wrap .edit-container{
+    width: 100%;
+    background: var(--light-white);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+    .settings-bottom .edit-wrap .edit-container .table th{
+        border-top: unset;
+    }

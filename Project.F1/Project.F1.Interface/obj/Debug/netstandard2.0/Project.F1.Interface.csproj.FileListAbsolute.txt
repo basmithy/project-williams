@@ -1,0 +1,14 @@
+D:\source\repos\Project.F1\Project.F1\Project.F1.Interface\bin\Debug\netstandard2.0\Project.F1.Interface.deps.json
+D:\source\repos\Project.F1\Project.F1\Project.F1.Interface\bin\Debug\netstandard2.0\Project.F1.Interface.dll
+D:\source\repos\Project.F1\Project.F1\Project.F1.Interface\bin\Debug\netstandard2.0\Project.F1.Interface.pdb
+D:\source\repos\Project.F1\Project.F1\Project.F1.Interface\obj\Debug\netstandard2.0\Project.F1.Interface.csprojAssemblyReference.cache
+D:\source\repos\Project.F1\Project.F1\Project.F1.Interface\obj\Debug\netstandard2.0\Project.F1.Interface.AssemblyInfoInputs.cache
+D:\source\repos\Project.F1\Project.F1\Project.F1.Interface\obj\Debug\netstandard2.0\Project.F1.Interface.AssemblyInfo.cs
+D:\source\repos\Project.F1\Project.F1\Project.F1.Interface\obj\Debug\netstandard2.0\Project.F1.Interface.csproj.CoreCompileInputs.cache
+D:\source\repos\Project.F1\Project.F1\Project.F1.Interface\obj\Debug\netstandard2.0\Project.F1.Interface.dll
+D:\source\repos\Project.F1\Project.F1\Project.F1.Interface\obj\Debug\netstandard2.0\Project.F1.Interface.pdb
+D:\source\repos\Project.F1\Project.F1\Project.F1.Interface\bin\Debug\netstandard2.0\Project.F1.Context.dll
+D:\source\repos\Project.F1\Project.F1\Project.F1.Interface\bin\Debug\netstandard2.0\Project.F1.Models.dll
+D:\source\repos\Project.F1\Project.F1\Project.F1.Interface\bin\Debug\netstandard2.0\Project.F1.Context.pdb
+D:\source\repos\Project.F1\Project.F1\Project.F1.Interface\bin\Debug\netstandard2.0\Project.F1.Models.pdb
+D:\source\repos\Project.F1\Project.F1\Project.F1.Interface\obj\Debug\netstandard2.0\Project.F1.Interface.csproj.CopyComplete

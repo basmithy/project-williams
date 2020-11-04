@@ -1,0 +1,59 @@
+﻿/* Tablet Size Portrait + Larger Tablet Width */
+@media screen and (max-width: 1025px) {
+}
+/* Tablet Landscape */
+@media screen and (max-width: 768px) {
+    body{
+        margin-left: unset;
+        margin-top: 85px;
+    }
+    .nav-outer {
+        width: 100%;
+        height: 75px;
+    }
+    .nav-outer .nav-wrap{
+        flex-direction: row;
+        padding: 0 1rem;
+    }
+    .nav-outer .nav-btns-main,
+    .nav-outer .nav-btns-settings{
+        display: none !important;
+    }
+        .nav-outer .nav-wrap .logo-wrap{
+            margin-bottom: 0rem;
+        }
+    .nav-outer .nav-mobile-wrap{
+        display: block;
+    }
+    .nav-outer .nav-mobile-wrap .burger svg{
+        width: 40px;
+        height: 40px;
+    }
+        .nav-outer .nav-mobile-wrap .burger svg path {
+            stroke: var(--light-offwhite);
+        }
+    .content-top,
+    .settings-top,
+    .content-bottom .tracker-info-box {
+        display: none;
+    }
+    .content-bottom .content-wrap {
+        padding: 0 1rem;
+        flex-direction: column;
+        top: 0px;
+    }
+    .settings-bottom .content-wrap,
+    .settings-bottom .edit-wrap{
+        top: 0px;
+    }
+    th.mob-hide,
+    td.mob-hide{
+        display: none;
+    }
+}
+/* Mobile Size */
+@media screen and (max-width: 550px) {
+    .nav-outer{
+
+    }
+}

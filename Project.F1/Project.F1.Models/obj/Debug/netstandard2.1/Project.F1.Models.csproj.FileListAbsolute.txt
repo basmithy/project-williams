@@ -1,0 +1,9 @@
+D:\source\repos\Project.F1\Project.F1\Project.F1.Models\bin\Debug\netstandard2.1\Project.F1.Models.deps.json
+D:\source\repos\Project.F1\Project.F1\Project.F1.Models\bin\Debug\netstandard2.1\Project.F1.Models.dll
+D:\source\repos\Project.F1\Project.F1\Project.F1.Models\bin\Debug\netstandard2.1\Project.F1.Models.pdb
+D:\source\repos\Project.F1\Project.F1\Project.F1.Models\obj\Debug\netstandard2.1\Project.F1.Models.csprojAssemblyReference.cache
+D:\source\repos\Project.F1\Project.F1\Project.F1.Models\obj\Debug\netstandard2.1\Project.F1.Models.AssemblyInfoInputs.cache
+D:\source\repos\Project.F1\Project.F1\Project.F1.Models\obj\Debug\netstandard2.1\Project.F1.Models.AssemblyInfo.cs
+D:\source\repos\Project.F1\Project.F1\Project.F1.Models\obj\Debug\netstandard2.1\Project.F1.Models.csproj.CoreCompileInputs.cache
+D:\source\repos\Project.F1\Project.F1\Project.F1.Models\obj\Debug\netstandard2.1\Project.F1.Models.dll
+D:\source\repos\Project.F1\Project.F1\Project.F1.Models\obj\Debug\netstandard2.1\Project.F1.Models.pdb

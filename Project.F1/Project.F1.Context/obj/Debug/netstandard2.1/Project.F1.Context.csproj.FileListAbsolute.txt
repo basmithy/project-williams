@@ -1,0 +1,12 @@
+D:\source\repos\Project.F1\Project.F1\Project.F1.Context\bin\Debug\netstandard2.1\Project.F1.Context.deps.json
+D:\source\repos\Project.F1\Project.F1\Project.F1.Context\bin\Debug\netstandard2.1\Project.F1.Context.dll
+D:\source\repos\Project.F1\Project.F1\Project.F1.Context\bin\Debug\netstandard2.1\Project.F1.Context.pdb
+D:\source\repos\Project.F1\Project.F1\Project.F1.Context\bin\Debug\netstandard2.1\Project.F1.Models.dll
+D:\source\repos\Project.F1\Project.F1\Project.F1.Context\bin\Debug\netstandard2.1\Project.F1.Models.pdb
+D:\source\repos\Project.F1\Project.F1\Project.F1.Context\obj\Debug\netstandard2.1\Project.F1.Context.csprojAssemblyReference.cache
+D:\source\repos\Project.F1\Project.F1\Project.F1.Context\obj\Debug\netstandard2.1\Project.F1.Context.AssemblyInfoInputs.cache
+D:\source\repos\Project.F1\Project.F1\Project.F1.Context\obj\Debug\netstandard2.1\Project.F1.Context.AssemblyInfo.cs
+D:\source\repos\Project.F1\Project.F1\Project.F1.Context\obj\Debug\netstandard2.1\Project.F1.Context.csproj.CoreCompileInputs.cache
+D:\source\repos\Project.F1\Project.F1\Project.F1.Context\obj\Debug\netstandard2.1\Project.F1.Context.csproj.CopyComplete
+D:\source\repos\Project.F1\Project.F1\Project.F1.Context\obj\Debug\netstandard2.1\Project.F1.Context.dll
+D:\source\repos\Project.F1\Project.F1\Project.F1.Context\obj\Debug\netstandard2.1\Project.F1.Context.pdb

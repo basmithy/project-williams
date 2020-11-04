@@ -1,0 +1,58 @@
+﻿@model List<Project.F1.Models.DriverTableModel>
+
+@{
+    int position = 1;
+}
+
+<div class="driver-info-panel">
+    <table>
+        <tr>
+            <th>
+                <p class="font-blue-light font-s">
+                    POS.
+                </p>
+            </th>
+            <th>
+                <p class="font-blue-light font-s">
+                    NAME
+                </p>
+            </th>
+            <th>
+                <p class="font-blue-light font-s">
+                    CONSTRUCTOR
+                </p>
+            </th>
+            <th>
+                <p class="font-blue-light font-s">
+                    PTS
+                </p>
+            </th>
+        </tr>
+        @foreach (var place in Model)
+        {
+            <tr class="driver-info-panel-tr @if (place.ConstructorName == "Williams") { @("williams") }">
+                <td>
+                    <p>
+                        @position
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        @place.DriverName
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        @place.ConstructorName
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        @place.TotalPoints
+                    </p>
+                </td>
+            </tr>
+            position++;
+        }
+    </table>
+</div>

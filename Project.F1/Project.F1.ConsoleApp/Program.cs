@@ -374,6 +374,12 @@ namespace Project.F1.ConsoleApp
                 },
                 new Driver
                 {
+                    DriverName = "Sebastian Vettel",
+                    DriverPhoto = "sebastianvettel",
+                    ConstructorId = 4
+                },
+                new Driver
+                {
                     DriverName = "Nico Hulkenberg",
                     DriverPhoto = "nicohulkenberg",
                     ConstructorId = 5,
@@ -418,8 +424,9 @@ namespace Project.F1.ConsoleApp
             foreach (Driver d in drivers)
             {
                 _context.Drivers.Add(d);
+                _context.SaveChanges();
             }
-            _context.SaveChanges();
+           
         }
 
 

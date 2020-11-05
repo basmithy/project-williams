@@ -15,17 +15,25 @@ namespace Project.F1.ConsoleApp
             Console.WriteLine("Initializing!");
 
             _context.Database.Migrate();
+
             
-            if(_context.Constructors.Count() == 0)
+            if (_context.Constructors.Count() == 0)
             {
                 AddTeamData();
             }
-            if(_context.Positions.Count() == 0)
+            if (_context.Drivers.Count() == 0)
+            {
+                AddDriverData();
+            }
+            if (_context.Tracks.Count() == 0)
+            {
+                AddTrackData();
+            }
+            if (_context.Positions.Count() == 0)
             {
                 AddRacesData();
             }
-
-            //AddTrackData();
+            
             //AddRaceData();
         }
 
@@ -281,6 +289,139 @@ namespace Project.F1.ConsoleApp
             }
             _context.SaveChanges();
         }
+
+        private static void AddDriverData()
+        {
+            var drivers = new Driver[]
+            {
+                new Driver
+                {
+                    DriverName = "Lewis Hamilton",
+                    DriverPhoto = "lewishamilton",
+                    ConstructorId = 1,
+                },
+                new Driver
+                {
+                    DriverName = "Valtteri Bottas",
+                    DriverPhoto = "valtteribottas",
+                    ConstructorId = 1,
+                },
+                new Driver
+                {
+                    DriverName = "Max Verstappen",
+                    DriverPhoto = "maxverstappen",
+                    ConstructorId = 2,
+                },
+                new Driver
+                {
+                    DriverName = "Daniel Ricciardo",
+                    DriverPhoto = "danielricciardo",
+                    ConstructorId = 3,
+                },
+                new Driver
+                {
+                    DriverName = "Charles Leclerc",
+                    DriverPhoto = "charlesleclerc",
+                    ConstructorId = 4,
+                },
+                new Driver
+                {
+                    DriverName = "Sergio Perez",
+                    DriverPhoto = "sergioperez",
+                    ConstructorId = 5,
+                },
+                new Driver
+                {
+                    DriverName = "Lando Norris",
+                    DriverPhoto = "landonorris",
+                    ConstructorId = 6,
+                },
+                new Driver
+                {
+                    DriverName = "Carlos Sainz",
+                    DriverPhoto = "carlossainz",
+                    ConstructorId = 6,
+                },
+                new Driver
+                {
+                    DriverName = "Alexander Albon",
+                    DriverPhoto = "alexanderalbon",
+                    ConstructorId = 2,
+                },
+                new Driver
+                {
+                    DriverName = "Pierre Gasly",
+                    DriverPhoto = "pierregasly",
+                    ConstructorId = 7,
+                },
+                new Driver
+                {
+                    DriverName = "Lance Stroll",
+                    DriverPhoto = "lancestroll",
+                    ConstructorId = 5,
+                },
+                new Driver
+                {
+                    DriverName = "Esteban Ocon",
+                    DriverPhoto = "estebanocon",
+                    ConstructorId = 3,
+                },
+                new Driver
+                {
+                    DriverName = "Danil Kvyat",
+                    DriverPhoto = "danilkvyat",
+                    ConstructorId = 7,
+                },
+                new Driver
+                {
+                    DriverName = "Nico Hulkenberg",
+                    DriverPhoto = "nicohulkenberg",
+                    ConstructorId = 5,
+                },
+                new Driver
+                {
+                    DriverName = "Kimi Räikkönen",
+                    DriverPhoto = "kimiräikkönen",
+                    ConstructorId = 8,
+                },
+                new Driver
+                {
+                    DriverName = "Antonio Giovinazzi",
+                    DriverPhoto = "antoniogiovinazzi",
+                    ConstructorId = 8,
+                },
+                new Driver
+                {
+                    DriverName = "Romain Grosjean",
+                    DriverPhoto = "romaingrosjean",
+                    ConstructorId = 9,
+                },
+                new Driver
+                {
+                    DriverName = "Kevin Magnussen",
+                    DriverPhoto = "kevinmagnussen",
+                    ConstructorId = 9,
+                },
+                new Driver
+                {
+                    DriverName = "Nicholas Latifi",
+                    DriverPhoto = "nicholaslatifi",
+                    ConstructorId = 10,
+                },
+                new Driver
+                {
+                    DriverName = "George Russell",
+                    DriverPhoto = "georgerussell",
+                    ConstructorId = 10,
+                }
+            };
+            foreach (Driver d in drivers)
+            {
+                _context.Drivers.Add(d);
+            }
+            _context.SaveChanges();
+        }
+
 
         private static void AddTrackData()
         {
